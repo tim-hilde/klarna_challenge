@@ -28,7 +28,7 @@ jobs:
 
     # Fifth step: install
     - name: Install packages
-      uses: poetry install
+      run: poetry install
 
     # Sixth step: run tests with Pytest
     - name: Run tests
