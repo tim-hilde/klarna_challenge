@@ -32,4 +32,4 @@ jobs:
 
     # Sixth step: run tests with Pytest
     - name: Run tests
-      run: python -m pytest .
+      run: poetry run -m pytest .
